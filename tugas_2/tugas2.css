@@ -95,7 +95,10 @@ nav ul li a{
 
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
-    color: white;
+    color: grey;
+}
+.submit-button{
+    color: white
 }
 input{
     border: none;
