@@ -15,10 +15,13 @@
     color: grey
 }
 
+.black{
+    color: black;
+}
+
 a{
     padding: 15px;
     text-decoration: none;
-    color: black;
 }
 
 .objmargin{
@@ -107,7 +110,8 @@ input{
     width: 80%;
     flex: auto auto auto;
 }
-h1{
+.title{
+    padding: 0%;
     font-family: 'Times New Roman', Times, serif;
     color: red;
     font-size: xx-large;
