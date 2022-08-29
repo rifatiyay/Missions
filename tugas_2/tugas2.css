@@ -1,0 +1,145 @@
+.flex{
+    display: flex;
+}
+
+.center{
+    align-items: center;
+}
+
+.margin{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grey{
+    color: grey
+}
+
+a{
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.objmargin{
+    margin-top: 50px;
+}
+
+.bg-green{
+    background-color: limegreen;
+}
+
+.border-radius{
+    border-radius: 50px;;
+}
+
+.flex-auto{
+    flex: 1 1 auto;
+}
+
+.HeaderFooter{
+    width: 90%;
+    height: 8.5vh;
+    padding: 10px 10px 10px 10px;
+}
+nav{
+    width: 100%;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+    margin: 10px 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: large;
+    color: grey
+}
+
+
+.main{
+    width: 80%;
+    box-sizing: border-box;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.adver{
+    background: rgb(217, 222, 225);
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: 200;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 50px;
+}
+.adver-button{
+    display: inline-block;
+    background: white;
+    padding: 6px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.adver-form{
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 0 rgb(201, 216, 224), 0 1px 2px 0 gray;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+input{
+    border: none;
+    outline: none;
+}
+
+
+.content{
+    box-sizing: border-box;
+}
+.content-img{
+    width: 20%;
+    object-fit: cover;
+}
+.content-main{
+    width: 80%;
+    flex: auto auto auto;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    font-size: xx-large;
+    font-weight: bold;
+}
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(70, 83, 96);
+    font-size: large;
+}
+.content-footer{
+    margin: 30px;
+}
+.content-button{
+    padding: 8px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: white;
+    box-shadow: 0 0 1px 0 black, 0 1px 2px 0 gray;
+    border-radius: 2px;
+    font-weight: bold;
+}
+.content-author-name{
+    margin: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
+.content-author-pic{
+    margin: 5px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.gap{
+    flex: 1 1 auto;
+}
