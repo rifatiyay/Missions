@@ -1,0 +1,78 @@
+.flex{
+    display: flex;
+}
+.gap{
+    flex: 1 1 auto;
+}
+
+.outElem{
+    transform-style: preserve-3d;
+}
+
+body{
+    overflow: hidden;
+    margin: 0;
+    background-image: url(Assets/Frame2.png);
+    background-size: cover;
+}
+
+.font{
+    font-family: 'Anton';
+    color: white;
+    text-align: center;
+    opacity: 1;
+    letter-spacing: 2px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.bg1{
+    content: "";
+    background-image: url(Assets/bg.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.stars1 {
+    backface-visibility: hidden;
+    width: 100px;
+}
+
+.planet1{
+    backface-visibility: hidden;
+    /* margin-top: 50px; */
+    /* margin-left: 100px; */
+    /* width: 200px;
+    height: 200px; */
+}
+.planet2{
+    backface-visibility: hidden;
+    /* width: 200px; */
+}
+
+.rocket1{
+    backface-visibility: hidden;
+    width: 400px;
+}
+
+.astronot{
+    width: 200px;
+}
+
+.floating-img{
+    transform: translateY(-10%);
+    animation: floater 5s infinite;
+    transition: ease 0.5s;
+}
+  
+@keyframes floater {
+    0%{transform: translateY(-10%);transition: ease 0.5s;}
+    50%{transform: translateY(10%);transition: ease 0.5s;}
+}
+
